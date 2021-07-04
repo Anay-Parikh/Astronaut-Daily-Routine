@@ -66,7 +66,6 @@ function draw() {
   drawSprites();
   frameRate(10);
 
-  person.debug = true;
   person.setCollider("rectangle", -100, -75, 1750, 2200);
 
   topEdge = createSprite(400, 10, 800, 10)
